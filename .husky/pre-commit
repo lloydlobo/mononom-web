@@ -3,4 +3,5 @@
 
 # npm test
 # npx nx affected --target=test
- npx nx affected --target=lint
+# npx nx affected --target=lint
+npx nx affected --target=lint --verbose=true --parallel=true
