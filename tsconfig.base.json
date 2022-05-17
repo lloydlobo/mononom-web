@@ -15,6 +15,13 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@mononom-ssg/account/data-access": [
+        "packages/account/data-access/src/index.ts"
+      ],
+      "@mononom-ssg/account/domain": ["packages/account/domain/src/index.ts"],
+      "@mononom-ssg/account/presentation": [
+        "packages/account/presentation/src/index.ts"
+      ],
       "@mononom-ssg/vanilla/likeaweb": [
         "packages/vanilla/likeaweb/src/index.ts"
       ]

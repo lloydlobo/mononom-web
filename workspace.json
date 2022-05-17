@@ -2,6 +2,9 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "account-data-access": "packages/account/data-access",
+    "account-domain": "packages/account/domain",
+    "account-presentation": "packages/account/presentation",
     "vanilla-likeaweb": "packages/vanilla/likeaweb"
   }
 }
