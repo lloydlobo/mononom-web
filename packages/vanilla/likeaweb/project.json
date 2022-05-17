@@ -27,6 +27,13 @@
         "jestConfig": "packages/vanilla/likeaweb/jest.config.ts",
         "passWithNoTests": true
       }
+    },
+    "stylelint": {
+      "executor": "nx-stylelint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/vanilla/likeaweb/**/*.css"]
+      }
     }
   },
   "tags": ["vanilla"]

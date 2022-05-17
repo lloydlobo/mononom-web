@@ -12,14 +12,17 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
+        "cacheableOperations": ["build", "lint", "test", "e2e", "stylelint"],
         "accessToken": "ZTgzZTg1OWUtZjIxNS00NjlmLWFkY2EtNzgxNGY2NWI4ZDNifHJlYWQtd3JpdGU="
       }
     }
+  },
+  "implicitDependencies": {
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    ".eslintrc.json": "*",
+    ".stylelintrc.json": "*"
   }
 }
