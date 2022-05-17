@@ -1,7 +1,7 @@
 {
   "extends": "nx/presets/core.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "mononom-ssg",
+  "npmScope": "mononom-web",
   "affected": {
     "defaultBase": "main"
   },
@@ -12,8 +12,14 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e", "stylelint"],
-        "accessToken": "ZTgzZTg1OWUtZjIxNS00NjlmLWFkY2EtNzgxNGY2NWI4ZDNifHJlYWQtd3JpdGU="
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e",
+          "stylelint"
+        ],
+        "accessToken": "OGQ1NmEwMGYtNTJmYi00OTZmLTk5YjktYjY0NjcxZWI5ZGY1fHJlYWQtd3JpdGU="
       }
     }
   },
