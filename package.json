@@ -20,6 +20,7 @@
     "@nrwl/js": "14.1.6",
     "@nrwl/linter": "14.1.6",
     "@nrwl/nx-cloud": "latest",
+    "@nrwl/nx-plugin": "^14.1.6",
     "@nrwl/web": "^14.1.6",
     "@nrwl/workspace": "14.1.6",
     "@types/jest": "27.4.1",
