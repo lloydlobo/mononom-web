@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/vanilla/likeaweb/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/vanilla/likeaweb",
+        "main": "packages/vanilla/likeaweb/src/index.ts",
+        "tsConfig": "packages/vanilla/likeaweb/tsconfig.lib.json",
+        "assets": ["packages/vanilla/likeaweb/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/vanilla/likeaweb/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/vanilla/likeaweb"],
+      "options": {
+        "jestConfig": "packages/vanilla/likeaweb/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": ["vanilla"]
+}
