@@ -17,6 +17,12 @@
         "jestConfig": "packages/account/presentation/jest.config.ts",
         "passWithNoTests": true
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional"
+      }
     }
   },
   "tags": ["type:presentation", "scope:account"]
