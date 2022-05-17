@@ -1,0 +1,17 @@
+{
+  "name": "mononom-ssg",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@nrwl/cli": "14.1.6",
+    "@nrwl/js": "14.1.6",
+    "@nrwl/nx-cloud": "latest",
+    "@nrwl/workspace": "14.1.6",
+    "nx": "14.1.6",
+    "prettier": "^2.5.1",
+    "typescript": "~4.6.2"
+  }
+}
